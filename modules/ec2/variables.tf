@@ -1,4 +1,4 @@
-# Create the variables block
+# Create variables block
   variable "ec2_count" {
   default = "1"
 }

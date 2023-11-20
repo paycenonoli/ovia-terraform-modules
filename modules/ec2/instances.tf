@@ -1,4 +1,4 @@
-# Create ec2 instance
+# Create ec2 instances
 resource "aws_instance" "ovia_webserver" {
   count = "${var.ec2_count}"
   ami           = "${var.ami_id}"
